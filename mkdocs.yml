@@ -23,9 +23,9 @@ theme:
 nav:
   - Home: index.md
   - Software: software.md
-  - Getting started: getting-started.md
-  - Contributing: contributing.md
-  - Governance: governance.md
+  # - Getting started: getting-started.md
+  # - Contributing: contributing.md
+  # - Governance: governance.md
 
 markdown_extensions:
   - admonition
@@ -41,3 +41,6 @@ extra_css:
 
 plugins:
   - search
+
+docs_dir: src_docs
+site_dir: docs
