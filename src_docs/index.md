@@ -26,7 +26,7 @@ Tools from the **Engineering Risk Analysis (ERA)** community for **uncertainty q
     
     Rare-event estimation and structural reliability methods.
 
--   :material-bayesian: **Bayesian inference**
+-   :material-chart-scatter-plot: **Bayesian inference**
     
     Sampling-based Bayesian updating and sequential methods.
 
