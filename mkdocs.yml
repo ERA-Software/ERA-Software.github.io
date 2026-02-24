@@ -1,0 +1,43 @@
+site_name: ERA Software
+site_description: Open-source tools for uncertainty quantification and decision-making in engineering risk analysis
+site_url: https://era-software.github.io/
+
+repo_name: ERA-Software
+repo_url: https://github.com/ERA-Software
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - content.action.edit
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Software: software.md
+  - Getting started: getting-started.md
+  - Contributing: contributing.md
+  - Governance: governance.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
