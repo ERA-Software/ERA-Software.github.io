@@ -1,0 +1,59 @@
+# ERA Software – Website
+
+This repository contains the source code for the ERA Software organization website:
+
+https://era-software.github.io/
+
+The site is built with **MkDocs** (Material theme) and deployed via **GitHub Pages** from the `main` branch (`/docs` folder).
+
+---
+
+## Structure
+mkdocs.yml # MkDocs configuration
+requirements.txt # Python dependencies (pinned)
+src_docs/ # Markdown source files (edit these)
+docs/ # Generated static site (served by GitHub Pages)
+
+- Edit content in `src_docs/`
+- Run `mkdocs build --clean`
+- Commit both `src_docs/` and the generated `docs/`
+- Push to `main` to deploy
+
+---
+
+## Local development
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Open:
+
+http://127.0.0.1:8000
+
+
+---
+
+## Build for deployment
+
+```bash
+mkdocs build --clean
+git add src_docs docs
+git commit -m "Update website"
+git push
+```
+
+---
+
+## Notes
+
+- Do not edit files inside `docs/` manually (they are generated).
+- MkDocs is pinned to `<2` for compatibility with the Material theme.
+- Keep the website minimal, clear, and focused on ERA-Software tools.
+
+---
+
+## License
