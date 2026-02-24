@@ -4,7 +4,7 @@ site_url: https://era-software.github.io/
 
 repo_name: ERA-Software
 repo_url: https://github.com/ERA-Software
-edit_uri: edit/main/docs/
+edit_uri: edit/main/src_docs/
 
 theme:
   name: material
@@ -28,13 +28,17 @@ nav:
   # - Governance: governance.md
 
 markdown_extensions:
+  - meta
   - admonition
   - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
   - stylesheets/extra.css
