@@ -16,7 +16,7 @@ A curated set of ERA-Software tools for uncertainty quantification, reliability 
     Methods for reliability analysis and rare-event probability estimation. Includes classic workhorses such as **FORM**, **Cross-Entropy / iCE**, **Subset Simulation**, **Sequential Importance Sampling**, and **Line Sampling variants**.  
     [:octicons-mark-github-16: Listed in Overview](https://github.com/ERA-Software/Overview)
 
--   :material-bayesian: **Bayesian inference tools (Python)**
+-   :material-chart-scatter-plot: **Bayesian inference tools (Python)**
     
     Sampling-based Bayesian inference methods, including **BUS** (Bayesian Updating with Structural reliability methods), **Adaptive BUS**, **iTMCMC**, and **SMC-style** algorithms.  
     [:octicons-mark-github-16: Listed in Overview](https://github.com/ERA-Software/Overview)
@@ -39,12 +39,3 @@ A typical workflow looks like:
 3. **Estimate failure probability** with reliability tools
 4. **Update with data** using Bayesian inference tools (e.g., BUS / iTMCMC)
 5. **Use results for decisions** (risk, inspection, design, etc.)
-
----
-
-## Add a project
-
-Open a PR and add a new card with:
-- One-sentence “job to be done”
-- 2–3 keywords (methods / domain)
-- Link(s): repo, docs, paper, citation
