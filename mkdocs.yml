@@ -24,7 +24,7 @@ theme:
 nav:
   - Home: index.md
   - Software: software.md
-  # - Getting started: getting-started.md
+  - Getting started: getting-started.md
   # - Contributing: contributing.md
   # - Governance: governance.md
 
