@@ -6,7 +6,7 @@
 Tools from the **Engineering Risk Analysis (ERA)** community for **uncertainty quantification**, **reliability**, and **Bayesian inference** in engineering.
 
 <div class="hero-buttons" markdown>
-[:material-rocket-launch: Getting started](getting-started.md){ .md-button .md-button--primary }
+[:material-rocket-launch: Contributor guidelines](contributor-guidelines.md){ .md-button .md-button--primary }
 [:octicons-mark-github-16: GitHub org](https://github.com/ERA-Software){ .md-button }
 </div>
 
@@ -17,21 +17,38 @@ Tools from the **Engineering Risk Analysis (ERA)** community for **uncertainty q
 
 <div class="grid cards" markdown>
 
--   :material-chart-bell-curve: **UQ base layer**
+-   :material-tools: **Software developments**
     
-    Distributions, dependence models, sampling utilities.  
-    → Start with **eraUQ**.
+    Core research software and methodological toolchains developed within ERA.  
+    Includes the four current development paths:
+    
+    - UQ & probabilistic modeling  
+    - Reliability & rare-event estimation  
+    - Bayesian inference & decision-making  
+    - Surrogate modeling
+    
+    <span class="tag">tooling</span>
 
--   :material-shield-check: **Reliability**
+-   :material-school: **Teaching (Tutorials)**
     
-    Rare-event estimation and structural reliability methods.
+    Educational material, hands-on tutorials, and course notebooks.  
+    Designed for engineering students and researchers working with uncertainty quantification and decision-making.
+    
+    <span class="tag">teaching</span>
 
--   :material-chart-scatter-plot: **Bayesian inference**
+-   :material-book-open-page-variant: **Code associated with publications**
     
-    Sampling-based Bayesian updating and sequential methods.
+    Reproducible research repositories linked to journal and conference papers.  
+    Includes benchmark scripts, experiment pipelines, and archived datasets when available.
 
--   :material-function-variant: **Surrogates**
+    [Open publication code template](https://github.com/ERA-Software/paper-template){ .md-button }
     
-    Surrogate modelling for accelerating UQ & reliability loops.
+    <span class="tag">publication</span>
+
+-   :material-source-branch: **Experimental & ongoing projects**
+    
+    Prototypes, benchmarking environments, and early-stage research ideas under active development.
+    
+    <span class="tag">tooling</span>
 
 </div>
