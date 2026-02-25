@@ -4,3 +4,22 @@
   background: linear-gradient(135deg, rgba(63,81,181,0.10), rgba(63,81,181,0.02));
 }
 .hero .md-button { margin-right: .5rem; margin-top: .4rem; }
+
+/* Tag styling consistent with hero gradient */
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  margin-top: 0.6rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(63,81,181,0.15),
+    rgba(63,81,181,0.05)
+  );
+
+  color: rgb(63,81,181);
+  letter-spacing: 0.03em;
+}

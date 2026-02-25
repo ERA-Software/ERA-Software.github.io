@@ -1,4 +1,4 @@
-# Getting started
+# Contributor guidelines
 
 This page explains how members of the ERA group should publish and maintain repositories within the ERA-Software organization.
 
