@@ -6,7 +6,7 @@
 Tools from the **Engineering Risk Analysis (ERA)** community for **uncertainty quantification**, **reliability**, and **Bayesian inference** in engineering.
 
 <div class="hero-buttons" markdown>
-[:material-rocket-launch: Contributor_guidelines](contributor-guidelines.md){ .md-button .md-button--primary }
+[:material-rocket-launch: Contributor guidelines](contributor-guidelines.md){ .md-button .md-button--primary }
 [:octicons-mark-github-16: GitHub org](https://github.com/ERA-Software){ .md-button }
 </div>
 
@@ -40,6 +40,8 @@ Tools from the **Engineering Risk Analysis (ERA)** community for **uncertainty q
     
     Reproducible research repositories linked to journal and conference papers.  
     Includes benchmark scripts, experiment pipelines, and archived datasets when available.
+
+    [Open publication code template](https://github.com/ERA-Software/paper-template){ .md-button }
     
     <span class="tag">publication</span>
 
