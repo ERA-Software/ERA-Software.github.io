@@ -10,7 +10,7 @@ The goal is simple:
 
 ## What belongs on ERA-Software?
 
-According to the GitHub workshop slides :contentReference[oaicite:1]{index=1}, repositories should typically contain:
+According to the GitHub workshop slides, repositories should typically contain:
 
 - Supporting code for lectures
 - Supporting software associated with the chair (e.g. ERADist → eraUQ)
@@ -21,7 +21,7 @@ According to the GitHub workshop slides :contentReference[oaicite:1]{index=1}, r
 
 ## What should NOT be uploaded?
 
-GitHub is optimized for tracking **text files** :contentReference[oaicite:2]{index=2}.
+GitHub is optimized for tracking **text files**.
 
 Do **not** upload:
 
@@ -47,7 +47,7 @@ Your repository should contain:
 - `LICENSE`
 - `README.md`
 
-Use the ERA paper template as reference if needed :contentReference[oaicite:3]{index=3}.
+Use the ERA paper template as reference if needed.
 
 ---
 
